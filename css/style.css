@@ -1,3 +1,17 @@
 body{
-  background-color: #6EDCD9;
+  background-color: #554994;
+  margin: 0;
+}
+
+.name{
+  background-color: #F29393;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 200;
+  height: 440px;
+  color: #ffffff;
+}
+.text{
+  text-align: center;
+  
 }
