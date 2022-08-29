@@ -1,18 +1,89 @@
-body{
+body {
   background-color: #554994;
   margin: 0;
-}
-
-.name{
-  background-color: #F29393;
-  background-image: url(images/title.png);
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 200;
-  height: 440px;
+  font-family: 'DynaPuff', cursive;
   color: #ffffff;
 }
-.text{
+
+br {
+   display: block;
+   margin: 30px ;
+}
+.name {
+  background-color: #F29393;
+  background-image: url(../images/title1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 100px;
+  height: 25vw;
+  color: #ffffff;
+  /*text color*/
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  display: block;
+  margin: 100px 0;
+}
+
+h1 {
+  font-size: 2vw;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Silkscreen', cursive;
+  position: relative;
+  text-align: center;
+}
+
+h2{
+  font-size: 1vw;
+  font-family: 'DynaPuff', cursive;
+  position: relative;
+  text-align: center;
+}
+
+h3{
+  font-size: 1vw;
+  font-family: 'DynaPuff', cursive;
+  position: relative;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2vw;
+  font-family: 'DynaPuff', cursive;
+  position: relative;
   text-align: center;
 
+}
+hr {
+  border-top: 10px dotted white;
+  border-bottom: 1px;
+  width: 30%;
+}
+td{
+  padding-left: 5%;
+}
+#aboutme{
+  text-align: right;
+  text-align: justify;
+
+  margin-right: 20%;
+}
+
+
+.AboutMe{
+  height: 55%;
+  width: 55%;
+  border-radius: 30%;
+
+}
+
+.stock{
+  height: 25%;
+  width: 25%;
+  border-radius: 30%;
 }
